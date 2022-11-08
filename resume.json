@@ -1,537 +1,537 @@
 {
-    "meta": {
-        "theme": "jsonresume-theme-stackoverflow"
+  "meta": {
+    "theme": "jsonresume-theme-stackoverflow"
+  },
+  "basics": {
+    "name": "Nguyen Chi Cuong",
+    "label": "Fullstack Web Developer",
+    "image": "https://oss.nguyenchicuong.dev/statics/avatar.jpg",
+    "email": "nguyenchicuong2402@gmail.com",
+    "phone": "(+84) 945 767 420",
+    "url": "https://nguyenchicuong.dev",
+    "summary": "Senior Developer offering 4 years in the IT industry with a focus on Web Development. Experienced with all stages of the development cycle for dynamic web projects. Extensive experience in designing, developing, and implementing applications using Java Spring, NodeJS, Angular, VueJS as well as deploying applications to the cloud using Docker, Kubernetes",
+    "location": {
+      "address": "Binh Tri Dong B, Binh Tan Dict",
+      "postalCode": "",
+      "city": "Ho Chi Minh",
+      "countryCode": "VN",
+      "region": ""
     },
-    "basics": {
-        "name": "Nguyen Chi Cuong",
-        "label": "Fullstack Web Developer",
-        "image": "https://oss.nguyenchicuong.dev/statics/avatar.jpg",
-        "email": "nguyenchicuong2402@gmail.com",
-        "phone": "(+84) 945 767 420",
-        "url": "https://nguyenchicuong.dev",
-        "summary": "Senior Developer offering 4 years in the IT industry with a focus on Web Development. Experienced with all stages of the development cycle for dynamic web projects. Extensive experience in designing, developing, and implementing applications using Java Spring, NodeJS, Angular, VueJS as well as deploying applications to the cloud using Docker, Kubernetes",
-        "location": {
-            "address": "Binh Tri Dong B, Binh Tan Dict",
-            "postalCode": "",
-            "city": "Ho Chi Minh",
-            "countryCode": "VN",
-            "region": ""
-        },
-        "profiles": [
-            {
-                "network": "LinkedIn",
-                "username": "nguyenchicuong2402",
-                "url": "https://www.linkedin.com/in/nguyenchicuong2402"
-            },
-            {
-                "network": "Skype",
-                "username": "nguyenchicuong2402_1"
-            },
-            {
-                "network": "Github",
-                "username": "nguyenchicuong2402",
-                "url": "https://github.com/nguyenchicuong2402"
-            },
-            {
-                "network": "Gitlab",
-                "username": "nguyenchicuong2402",
-                "url": "https://gitlab.com/nguyenchicuong2402"
-            }
-        ],
-        "birth": {
-            "place": "Kien Giang",
-            "state": "VN",
-            "date": "1999"
-        }
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "nguyenchicuong2402",
+        "url": "https://www.linkedin.com/in/nguyenchicuong2402"
+      },
+      {
+        "network": "Skype",
+        "username": "nguyenchicuong2402_1"
+      },
+      {
+        "network": "Github",
+        "username": "nguyenchicuong2402",
+        "url": "https://github.com/nguyenchicuong2402"
+      },
+      {
+        "network": "Gitlab",
+        "username": "nguyenchicuong2402",
+        "url": "https://gitlab.com/nguyenchicuong2402"
+      }
+    ],
+    "birth": {
+      "place": "Kien Giang",
+      "state": "VN",
+      "date": "1999"
+    }
+  },
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "Senior",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "SASS",
+        "Bootstrap",
+        "TailwindCSS",
+        "JavaScript",
+        "JQuery",
+        "JSON"
+      ]
     },
-    "skills": [
-        {
-            "name": "Web Development",
-            "level": "Senior",
-            "keywords": [
-                "HTML",
-                "CSS",
-                "SASS",
-                "Bootstrap",
-                "TailwindCSS",
-                "JavaScript",
-                "JQuery",
-                "JSON"
-            ]
-        },
-        {
-            "name": "Java",
-            "level": "Middle",
-            "keywords": [
-                "Java Core",
-                "Spring Boot",
-                "Stream"
-            ]
-        },
-        {
-            "name": "NodeJS",
-            "level": "Middle",
-            "keywords": [
-                "NestJS",
-                "JavaScript",
-                "TypeScript",
-                "SSE",
-                "Caching"
-            ]
-        },
-        {
-            "name": "Angular",
-            "level": "Senior",
-            "keywords": [
-                "RxJS",
-                "Component",
-                "Directive",
-                "Pipe",
-                "Module",
-                "TypeScript",
-                "Lazy Load",
-                "Change Detection"
-            ]
-        },
-        {
-            "name": "Database",
-            "level": "Middle",
-            "keywords": [
-                "SQL",
-                "NoSQL",
-                "PostgreSQL",
-                "Redis"
-            ]
-        },
-        {
-            "name": "DevOps",
-            "level": "Middle",
-            "keywords": [
-                "Docker",
-                "Kubernetes",
-                "Linux",
-                "CI/CD",
-                "Proxy"
-            ]
-        },
-        {
-            "name": "Version Control",
-            "level": "Senior",
-            "keywords": [
-                "Git",
-                "Subversion"
-            ]
-        },
-        {
-            "name": "RPA",
-            "level": "Senior",
-            "keywords": [
-                "UiPath"
-            ]
-        },
-        {
-            "name": "IDE & Tools",
-            "level": "",
-            "keywords": [
-                "Eclipse",
-                "VS Code",
-                "WebStorm",
-                "IntelliJ IDEA",
-                "DataGrip",
-                "DBeaver",
-                "Postman",
-                "Sublime Text"
-            ]
-        },
-        {
-            "name": "Operating System",
-            "level": "",
-            "keywords": [
-                "Linux",
-                "Window",
-                "MAC OS"
-            ]
-        },
-        {
-            "name": "Methodologies",
-            "level": "",
-            "keywords": [
-                "Agile",
-                "Waterfall"
-            ]
-        }
-    ],
-    "work": [
-        {
-            "name": "Prime Commerce",
-            "position": "FrontEnd Developer",
-            "url": "https://primecommerce.asia",
-            "startDate": "2022-04-01",
-            "endDate": "",
-            "summary": "Technology company in E-commerce and Communication industry",
-            "highlights": [
-                "Research and deploy Rocket Chat",
-                "Build template for E-commerce website",
-                "Build core business logic for E-commerce website",
-                "Build source structure for dynamic template with VueJS 3",
-                "Build web SSO and user management for Prime's ecosystem",
-                "Manage source code version control with git (Github)",
-                "Product management and development with Agile model"
-            ]
-        },
-        {
-            "name": "FPT Information System",
-            "position": "Full-Stack Web Developer",
-            "url": "https://www.fis.com.vn",
-            "startDate": "2020-12-01",
-            "endDate": "2022-03-01",
-            "summary": "FIS Bank Department",
-            "highlights": [
-                "Build and deploy robotic process automation solutions to automate complex banking operations (UiPath)",
-                "Build a business management software system and group software approval process based on Camunda Platform",
-                "Implement workflow groupware with BPMN, Camunda",
-                "Build a system of authentication and user authorization",
-                "Deploy and operate the system with Kubernetes with HA architecture",
-                "Deploy and operate UiPath system with HA architecture on Window Server and CentOS",
-                "Deploy and configure application proxy system with Nginx",
-                "Install and configured CentOS server system",
-                "Automate the product release process with Jenkins",
-                "Package applications with Docker",
-                "Manage source code version control with Subversion",
-                "Product management and development with Waterfall model"
-            ]
-        },
-        {
-            "name": "VDAT Lab",
-            "position": "Full-Stack Web Developer",
-            "url": "https://ioh.cloud",
-            "startDate": "2019-03-01",
-            "endDate": "2022-01-01",
-            "summary": "",
-            "highlights": [
-                "Build a form builder system, support users to create online surveys and analyze survey data based on JSON Schema and Angular framework",
-                "Build a webapp to support the hospital to collect the glycemic index of diabetic patients using Angular Framework and Bootstrap.",
-                "Build a portal and information exchange support system in the hospital using Angular Framework, NestJS, WebSocket",
-                "Deploy and operate the system with Kubernetes with HA architecture",
-                "Automate the product release process with CI/CD (Gitlab CI)",
-                "Package applications with Docker",
-                "Manage source code version control with git (Gitlab)",
-                "Product management and development with Agile model (Gitlab Issues)"
-            ]
-        }
-    ],
-    "projects": [
-        {
-            "name": "Music",
-            "description": "Listen to music with friends",
-            "highlights": [
-                "Search & play music from Youtube",
-                "Create room listen to music together",
-                "Allow user invite member from url",
-                "Allow user add song to queue of room",
-                "Allow user choose member of room play music",
-                "Using MinIO (like AWS S3) to storage media",
-                "Crawler data from Youtube"
-            ],
-            "keywords": [
-                "Angular",
-                "TailwindCSS",
-                "NestJS",
-                "SSE",
-                "PostgreSQL",
-                "CI/CD",
-                "Jenkins",
-                "Kubernetes",
-                "Linux"
-            ],
-            "startDate": "2022-08-01",
-            "endDate": "",
-            "url": "https://music.nguyenchicuong.dev",
-            "roles": [
-                "Product Owner"
-            ],
-            "entity": "",
-            "type": "application"
-        },
-        {
-            "name": "Prime Web",
-            "description": "Create a professional E-commerce website",
-            "highlights": [
-                "Build source structure for dynamic template with VueJS 3",
-                "Build core business logic for E-commerce website",
-                "Build template for E-commerce website"
-            ],
-            "keywords": [
-                "VueJS",
-                "TailwindCSS",
-                "Docker",
-                "NuxtJS",
-                "SSR",
-                "Restful APIs"
-            ],
-            "startDate": "2022-05-01",
-            "endDate": "",
-            "url": "https://primecommerce.asia/prime-web",
-            "roles": [
-                "FrontEnd Developer"
-            ],
-            "entity": "",
-            "type": "application"
-        },
-        {
-            "name": "Prime SSO",
-            "description": "Single Side On for ecosystem of Prime Commerce",
-            "highlights": [
-                "Build web SSO for user with NuxtJS",
-                "Build a decentralized authentication feature for users"
-            ],
-            "keywords": [
-                "VueJS",
-                "Bootstrap",
-                "Docker",
-                "NuxtJS",
-                "SSR",
-                "Restful APIs"
-            ],
-            "startDate": "2022-05-01",
-            "endDate": "",
-            "url": "https://auth.primecommerce.asia",
-            "roles": [
-                "FrontEnd Developer"
-            ],
-            "entity": "",
-            "type": "application"
-        },
-        {
-            "name": "Enterprise Management Software System and Groupware Approval Process",
-            "description": "Enterprise Management Software System and Groupware Approval Process",
-            "highlights": [
-                "Build application with Jenkins, Docker",
-                "Implement workflow groupware with BPMN, Camunda",
-                "Develop Restful APIs with Spring Boot, PostgreSQL",
-                "Develop web application groupware with Angular",
-                "Deploy Kubernetes system with HA architecture",
-                "Install and configured CentOS server system"
-            ],
-            "keywords": [
-                "Angular",
-                "Bootstrap",
-                "Spring Boot",
-                "Restful APIs",
-                "MySQL",
-                "PostgreSQL",
-                "Camunda",
-                "Liferay Portal",
-                "Workflow",
-                "Docker",
-                "Kubernetes",
-                "CI/CD",
-                "Jenkins",
-                "Linux",
-                "BPMN"
-            ],
-            "startDate": "2022-08-01",
-            "endDate": "2022-03-30",
-            "url": "",
-            "roles": [
-                "FrontEnd Developer",
-                "BackEnd Developer",
-                "DevOps"
-            ],
-            "entity": "",
-            "type": "application"
-        },
-        {
-            "name": "Robotic Process Automation Solution for Sacombank",
-            "description": "Robotic Process Automation with UiPath",
-            "highlights": [
-                "UiPath system implementation with HA architecture",
-                "Implement banking businesses with RPA",
-                "Business analysis of banking systems",
-                "Testing RPA"
-            ],
-            "keywords": [
-                "RPA",
-                "UiPath",
-                "Linux",
-                "Window Server",
-                "Operation System"
-            ],
-            "startDate": "2021-03-01",
-            "endDate": "2022-07-30",
-            "url": "",
-            "roles": [
-                "RPA Developer",
-                "DevOps"
-            ],
-            "entity": "",
-            "type": "automation"
-        },
-        {
-            "name": "ZOChat",
-            "description": "Project of new technology subject",
-            "highlights": [
-                "Design and develop web application with Angular and Ant Design",
-                "Develop Restful APIs, WebSocket with NestJS, PostgreSQL",
-                "Built messaging software with Android base",
-                "Build application with Gitlab CI, Docker",
-                "Deployed the system on the Linux operating system with Dockerize technology on GCP",
-                "Learned OAuth2 makes it easy for me to decentralize users and protect internal services (Keycloak)"
-            ],
-            "keywords": [
-                "Angular",
-                "Ant Design",
-                "Android",
-                "Spring Boot",
-                "Operation System",
-                "Restful APIs",
-                "PostgreSQL",
-                "NestJS",
-                "WebSocket",
-                "Gitlab CI/CD",
-                "Docker",
-                "GCP",
-                "OAuth2"
-            ],
-            "startDate": "2021-03-01",
-            "endDate": "2022-07-30",
-            "url": "",
-            "roles": [
-                "RPA Developer",
-                "DevOps"
-            ],
-            "entity": "",
-            "type": "automation"
-        },
-        {
-            "name": "IOH Chat",
-            "description": "Information portal and support system for information exchange in hospitals",
-            "highlights": [
-                "Design and develop web application with Angular and Ant Design",
-                "Develop Restful APIs, WebSocket with NestJS, PostgreSQL",
-                "Build application with Gitlab CI, Docker",
-                "Deploy Kubernetes system with HA architecture",
-                "Learned OAuth2 makes it easy for me to decentralize users and protect internal services (Keycloak)"
-            ],
-            "keywords": [
-                "Angular",
-                "Ant Design",
-                "Operation System",
-                "Restful APIs",
-                "WebSocket",
-                "Gitlab CI/CD",
-                "Docker",
-                "OAuth2"
-            ],
-            "startDate": "2020-11-01",
-            "endDate": "2021-03-30",
-            "url": "",
-            "roles": [
-                "FrontEnd Developer",
-                "DevOps"
-            ],
-            "entity": "",
-            "type": "application"
-        },
-        {
-            "name": "IOH",
-            "description": "",
-            "highlights": [
-                "Build a webapp to support the hospital to collect the glycemic index of diabetic patients using Angular Framework and Bootstrap."
-            ],
-            "keywords": [
-                "Angular",
-                "Bootstrap",
-                "Restful APIs"
-            ],
-            "startDate": "2019-08-01",
-            "endDate": "2022-10-14",
-            "url": "https://ioh.cloud",
-            "roles": [
-                "FrontEnd Developer"
-            ],
-            "entity": "",
-            "type": "application"
-        },
-        {
-            "name": "IOH Form Builder",
-            "description": "",
-            "highlights": [
-                "Build a form builder system, support users to create online surveys and analyze survey data based on JSON Schema and Angular framework"
-            ],
-            "keywords": [
-                "Angular",
-                "Bootstrap",
-                "JSON Schema"
-            ],
-            "startDate": "2019-06-16",
-            "endDate": "2019-07-26",
-            "url": "",
-            "roles": [
-                "FrontEnd Developer"
-            ],
-            "entity": "",
-            "type": "application"
-        }
-    ],
-    "education": [
-        {
-            "institution": "University",
-            "url": "http://iuh.edu.vn",
-            "area": "Software Engineer",
-            "studyType": "Bachelor",
-            "startDate": "2017-09-01",
-            "endDate": "2021-09-01",
-            "score": "3.1",
-            "summary": "",
-            "courses": [
-                "Data Structures & Algorithms",
-                "Discrete Structure",
-                "Operating Systems",
-                "Java Core",
-                "OOP",
-                "SQL & NoSQL",
-                "Web",
-                "Mobile",
-                "New Technology",
-                "Software Development",
-                "Mobile Development",
-                "Software Architecture",
-                "Database management system",
-                "IT project management"
-            ]
-        }
-    ],
-    "languages": [
-        {
-            "language": "English",
-            "fluency": "Read and write"
-        }
-    ],
-    "interests": [
-        {
-            "name": "Music",
-            "keywords": []
-        },
-        {
-            "name": "Movie",
-            "keywords": []
-        },
-        {
-            "name": "Cooking",
-            "keywords": []
-        },
-        {
-            "name": "Coding",
-            "keywords": []
-        },
-        {
-            "name": "Technology",
-            "keywords": []
-        }
-    ],
-    "references": [],
-    "awards": [],
-    "certificates": [],
-    "publications": []
+    {
+      "name": "Java",
+      "level": "Middle",
+      "keywords": [
+        "Java Core",
+        "Spring Boot",
+        "Stream"
+      ]
+    },
+    {
+      "name": "NodeJS",
+      "level": "Middle",
+      "keywords": [
+        "NestJS",
+        "JavaScript",
+        "TypeScript",
+        "SSE",
+        "Caching"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Senior",
+      "keywords": [
+        "RxJS",
+        "Component",
+        "Directive",
+        "Pipe",
+        "Module",
+        "TypeScript",
+        "Lazy Load",
+        "Change Detection"
+      ]
+    },
+    {
+      "name": "Database",
+      "level": "Middle",
+      "keywords": [
+        "SQL",
+        "NoSQL",
+        "PostgreSQL",
+        "Redis"
+      ]
+    },
+    {
+      "name": "DevOps",
+      "level": "Middle",
+      "keywords": [
+        "Docker",
+        "Kubernetes",
+        "Linux",
+        "CI/CD",
+        "Proxy"
+      ]
+    },
+    {
+      "name": "Version Control",
+      "level": "Senior",
+      "keywords": [
+        "Git",
+        "Subversion"
+      ]
+    },
+    {
+      "name": "RPA",
+      "level": "Senior",
+      "keywords": [
+        "UiPath"
+      ]
+    },
+    {
+      "name": "IDE & Tools",
+      "level": "",
+      "keywords": [
+        "Eclipse",
+        "VS Code",
+        "WebStorm",
+        "IntelliJ IDEA",
+        "DataGrip",
+        "DBeaver",
+        "Postman",
+        "Sublime Text"
+      ]
+    },
+    {
+      "name": "Operating System",
+      "level": "",
+      "keywords": [
+        "Linux",
+        "Window",
+        "MAC OS"
+      ]
+    },
+    {
+      "name": "Methodologies",
+      "level": "",
+      "keywords": [
+        "Agile",
+        "Waterfall"
+      ]
+    }
+  ],
+  "work": [
+    {
+      "name": "Prime Commerce",
+      "position": "FrontEnd Developer",
+      "url": "https://primecommerce.asia",
+      "startDate": "2022-04-01",
+      "endDate": "",
+      "summary": "Technology company in E-commerce and Communication industry",
+      "highlights": [
+        "Research and deploy Rocket Chat",
+        "Build template for E-commerce website",
+        "Build core business logic for E-commerce website",
+        "Build source structure for dynamic template with VueJS 3",
+        "Build web SSO and user management for Prime's ecosystem",
+        "Manage source code version control with git (Github)",
+        "Product management and development with Agile model"
+      ]
+    },
+    {
+      "name": "FPT Information System",
+      "position": "Full-Stack Web Developer",
+      "url": "https://www.fis.com.vn",
+      "startDate": "2020-12-01",
+      "endDate": "2022-03-01",
+      "summary": "FIS Bank Department",
+      "highlights": [
+        "Build and deploy robotic process automation solutions to automate complex banking operations (UiPath)",
+        "Build a business management software system and group software approval process based on Camunda Platform",
+        "Implement workflow groupware with BPMN, Camunda",
+        "Build a system of authentication and user authorization",
+        "Deploy and operate the system with Kubernetes with HA architecture",
+        "Deploy and operate UiPath system with HA architecture on Window Server and CentOS",
+        "Deploy and configure application proxy system with Nginx",
+        "Install and configured CentOS server system",
+        "Automate the product release process with Jenkins",
+        "Package applications with Docker",
+        "Manage source code version control with Subversion",
+        "Product management and development with Waterfall model"
+      ]
+    },
+    {
+      "name": "VDAT Lab",
+      "position": "Full-Stack Web Developer",
+      "url": "https://ioh.cloud",
+      "startDate": "2019-03-01",
+      "endDate": "2022-01-01",
+      "summary": "",
+      "highlights": [
+        "Build a form builder system, support users to create online surveys and analyze survey data based on JSON Schema and Angular framework",
+        "Build a webapp to support the hospital to collect the glycemic index of diabetic patients using Angular Framework and Bootstrap.",
+        "Build a portal and information exchange support system in the hospital using Angular Framework, NestJS, WebSocket",
+        "Deploy and operate the system with Kubernetes with HA architecture",
+        "Automate the product release process with CI/CD (Gitlab CI)",
+        "Package applications with Docker",
+        "Manage source code version control with git (Gitlab)",
+        "Product management and development with Agile model (Gitlab Issues)"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Music",
+      "description": "Listen to music with friends",
+      "highlights": [
+        "Search & play music from Youtube",
+        "Create room listen to music together",
+        "Allow user invite member from url",
+        "Allow user add song to queue of room",
+        "Allow user choose member of room play music",
+        "Using MinIO (like AWS S3) to storage media",
+        "Crawler data from Youtube"
+      ],
+      "keywords": [
+        "Angular",
+        "TailwindCSS",
+        "NestJS",
+        "SSE",
+        "PostgreSQL",
+        "CI/CD",
+        "Jenkins",
+        "Kubernetes",
+        "Linux"
+      ],
+      "startDate": "2022-08-01",
+      "endDate": "",
+      "url": "https://music.nguyenchicuong.dev",
+      "roles": [
+        "Product Owner"
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Prime Web",
+      "description": "Create a professional E-commerce website",
+      "highlights": [
+        "Build source structure for dynamic template with VueJS 3",
+        "Build core business logic for E-commerce website",
+        "Build template for E-commerce website"
+      ],
+      "keywords": [
+        "VueJS",
+        "TailwindCSS",
+        "Docker",
+        "NuxtJS",
+        "SSR",
+        "Restful APIs"
+      ],
+      "startDate": "2022-05-01",
+      "endDate": "",
+      "url": "https://primecommerce.asia/prime-web",
+      "roles": [
+        "FrontEnd Developer"
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Prime SSO",
+      "description": "Single Side On for ecosystem of Prime Commerce",
+      "highlights": [
+        "Build web SSO for user with NuxtJS",
+        "Build a decentralized authentication feature for users"
+      ],
+      "keywords": [
+        "VueJS",
+        "Bootstrap",
+        "Docker",
+        "NuxtJS",
+        "SSR",
+        "Restful APIs"
+      ],
+      "startDate": "2022-05-01",
+      "endDate": "",
+      "url": "https://auth.primecommerce.asia",
+      "roles": [
+        "FrontEnd Developer"
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Enterprise Management Software System and Groupware Approval Process",
+      "description": "Enterprise Management Software System and Groupware Approval Process",
+      "highlights": [
+        "Build application with Jenkins, Docker",
+        "Implement workflow groupware with BPMN, Camunda",
+        "Develop Restful APIs with Spring Boot, PostgreSQL",
+        "Develop web application groupware with Angular",
+        "Deploy Kubernetes system with HA architecture",
+        "Install and configured CentOS server system"
+      ],
+      "keywords": [
+        "Angular",
+        "Bootstrap",
+        "Spring Boot",
+        "Restful APIs",
+        "MySQL",
+        "PostgreSQL",
+        "Camunda",
+        "Liferay Portal",
+        "Workflow",
+        "Docker",
+        "Kubernetes",
+        "CI/CD",
+        "Jenkins",
+        "Linux",
+        "BPMN"
+      ],
+      "startDate": "2022-08-01",
+      "endDate": "2022-03-30",
+      "url": "",
+      "roles": [
+        "FrontEnd Developer",
+        "BackEnd Developer",
+        "DevOps"
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "Robotic Process Automation Solution for Sacombank",
+      "description": "Robotic Process Automation with UiPath",
+      "highlights": [
+        "UiPath system implementation with HA architecture",
+        "Implement banking businesses with RPA",
+        "Business analysis of banking systems",
+        "Testing RPA"
+      ],
+      "keywords": [
+        "RPA",
+        "UiPath",
+        "Linux",
+        "Window Server",
+        "Operation System"
+      ],
+      "startDate": "2021-03-01",
+      "endDate": "2022-07-30",
+      "url": "",
+      "roles": [
+        "RPA Developer",
+        "DevOps"
+      ],
+      "entity": "",
+      "type": "automation"
+    },
+    {
+      "name": "ZOChat",
+      "description": "Project of new technology subject",
+      "highlights": [
+        "Design and develop web application with Angular and Ant Design",
+        "Develop Restful APIs, WebSocket with NestJS, PostgreSQL",
+        "Built messaging software with Android base",
+        "Build application with Gitlab CI, Docker",
+        "Deployed the system on the Linux operating system with Dockerize technology on GCP",
+        "Learned OAuth2 makes it easy for me to decentralize users and protect internal services (Keycloak)"
+      ],
+      "keywords": [
+        "Angular",
+        "Ant Design",
+        "Android",
+        "Spring Boot",
+        "Operation System",
+        "Restful APIs",
+        "PostgreSQL",
+        "NestJS",
+        "WebSocket",
+        "Gitlab CI/CD",
+        "Docker",
+        "GCP",
+        "OAuth2"
+      ],
+      "startDate": "2021-03-01",
+      "endDate": "2022-07-30",
+      "url": "",
+      "roles": [
+        "RPA Developer",
+        "DevOps"
+      ],
+      "entity": "",
+      "type": "automation"
+    },
+    {
+      "name": "IOH Chat",
+      "description": "Information portal and support system for information exchange in hospitals",
+      "highlights": [
+        "Design and develop web application with Angular and Ant Design",
+        "Develop Restful APIs, WebSocket with NestJS, PostgreSQL",
+        "Build application with Gitlab CI, Docker",
+        "Deploy Kubernetes system with HA architecture",
+        "Learned OAuth2 makes it easy for me to decentralize users and protect internal services (Keycloak)"
+      ],
+      "keywords": [
+        "Angular",
+        "Ant Design",
+        "Operation System",
+        "Restful APIs",
+        "WebSocket",
+        "Gitlab CI/CD",
+        "Docker",
+        "OAuth2"
+      ],
+      "startDate": "2020-11-01",
+      "endDate": "2021-03-30",
+      "url": "",
+      "roles": [
+        "FrontEnd Developer",
+        "DevOps"
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "IOH",
+      "description": "",
+      "highlights": [
+        "Build a webapp to support the hospital to collect the glycemic index of diabetic patients using Angular Framework and Bootstrap."
+      ],
+      "keywords": [
+        "Angular",
+        "Bootstrap",
+        "Restful APIs"
+      ],
+      "startDate": "2019-08-01",
+      "endDate": "2022-10-14",
+      "url": "https://ioh.cloud",
+      "roles": [
+        "FrontEnd Developer"
+      ],
+      "entity": "",
+      "type": "application"
+    },
+    {
+      "name": "IOH Form Builder",
+      "description": "",
+      "highlights": [
+        "Build a form builder system, support users to create online surveys and analyze survey data based on JSON Schema and Angular framework"
+      ],
+      "keywords": [
+        "Angular",
+        "Bootstrap",
+        "JSON Schema"
+      ],
+      "startDate": "2019-06-16",
+      "endDate": "2019-07-26",
+      "url": "",
+      "roles": [
+        "FrontEnd Developer"
+      ],
+      "entity": "",
+      "type": "application"
+    }
+  ],
+  "education": [
+    {
+      "institution": "University",
+      "url": "http://iuh.edu.vn",
+      "area": "Software Engineer",
+      "studyType": "Bachelor",
+      "startDate": "2017-09-01",
+      "endDate": "2021-09-01",
+      "score": "3.1",
+      "summary": "",
+      "courses": [
+        "Data Structures & Algorithms",
+        "Discrete Structure",
+        "Operating Systems",
+        "Java Core",
+        "OOP",
+        "SQL & NoSQL",
+        "Web",
+        "Mobile",
+        "New Technology",
+        "Software Development",
+        "Mobile Development",
+        "Software Architecture",
+        "Database management system",
+        "IT project management"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "Read and write"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music",
+      "keywords": []
+    },
+    {
+      "name": "Movie",
+      "keywords": []
+    },
+    {
+      "name": "Cooking",
+      "keywords": []
+    },
+    {
+      "name": "Coding",
+      "keywords": []
+    },
+    {
+      "name": "Technology",
+      "keywords": []
+    }
+  ],
+  "references": [],
+  "awards": [],
+  "certificates": [],
+  "publications": []
 }
