@@ -4,7 +4,7 @@
   },
   "basics": {
     "name": "Cuong Nguyen Chi",
-    "label": "Full Stack Web Developer",
+    "label": "Web Developer",
     "image": "https://github.com/nguyenchicuong2402/resume/blob/master/images/avatar.jpg?raw=true",
     "email": "nguyenchicuong2402@gmail.com",
     "phone": "(+84) 945 767 420",
@@ -37,135 +37,99 @@
   },
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Middle",
+      "name": "Front-end Development",
+      "level": "Advanced",
       "keywords": [
+        "Typescript",
+        "Javascript",
+        "Angular",
+        "ReactJS",
+        "Nx",
+        "TailwindCSS",
         "HTML",
         "CSS",
-        "SASS",
-        "Bootstrap",
-        "TailwindCSS",
-        "JavaScript",
-        "JQuery",
-        "JSON"
+        "SASS"
       ]
     },
     {
-      "name": "Java",
-      "level": "Junior",
+      "name": "Back-end Development",
+      "level": "Advanced",
       "keywords": [
-        "Java Core",
+        "OOP",
+        "Java",
         "Spring Boot",
-        "Stream",
-        "WebSocket"
-      ]
-    },
-    {
-      "name": "NodeJS",
-      "level": "Middle",
-      "keywords": [
+        "NodeJS",
         "NestJS",
-        "JavaScript",
-        "TypeScript",
+        "Express",
+        "WebSocket",
         "SSE",
-        "Caching",
-        "WebSocket"
-      ]
-    },
-    {
-      "name": "Angular",
-      "level": "Middle",
-      "keywords": [
-        "RxJS",
-        "Component",
-        "Directive",
-        "Pipe",
-        "Module",
-        "TypeScript",
-        "Lazy Load",
-        "Change Detection",
-        "Nx"
+        "RabbitMQ",
+        "Apache Kafka"
       ]
     },
     {
       "name": "Database",
-      "level": "Middle",
+      "level": "Intermediate",
       "keywords": [
         "SQL",
+        "NoSQL",
         "PostgreSQL",
-        "MySQL",
-        "Redis"
+        "MySQl",
+        "Redis",
+        "MongoDB"
       ]
     },
     {
       "name": "DevOps",
-      "level": "Junior",
+      "level": "Intermediate",
       "keywords": [
+        "Cloud",
+        "Linux",
+        "Bash",
         "Docker",
         "Kubernetes",
-        "Linux",
         "CI/CD",
-        "Nginx"
-      ]
-    },
-    {
-      "name": "RPA",
-      "level": "Middle",
-      "keywords": [
-        "UiPath"
+        "Nginx",
+        "Grafana",
+        "Prometheus"
       ]
     },
     {
       "name": "Version Control",
-      "level": "",
+      "level": "Advanced",
       "keywords": [
         "Git",
+        "Github",
+        "Gitlab",
+        "Bitbucket",
         "Subversion"
       ]
     },
     {
-      "name": "IDE & Tools",
-      "level": "",
-      "keywords": [
-        "Eclipse",
-        "VS Code",
-        "WebStorm",
-        "IntelliJ IDEA",
-        "DataGrip",
-        "DBeaver",
-        "Postman",
-        "Sublime Text"
-      ]
-    },
-    {
-      "name": "Operating System",
-      "level": "",
-      "keywords": [
-        "Linux",
-        "Window",
-        "MAC OS"
-      ]
-    },
-    {
       "name": "Methodologies",
-      "level": "",
+      "level": "Intermediate",
       "keywords": [
         "Agile",
-        "Waterfall"
+        "Waterfall",
+        "Jira"
       ]
     }
   ],
   "work": [
     {
-      "name": "Prime Commerce",
-      "position": "FrontEnd Developer",
-      "url": "https://primecommerce.asia",
+      "name": "FileString (CodeStringers)",
+      "position": "Web Developer",
+      "url": "https://www.codestringers.com/",
       "startDate": "2022-04-01",
-      "endDate": "2023-02-14",
-      "summary": "Technology company in E-commerce and Communication industry",
+      "endDate": "2024-04-01",
+      "summary": "",
       "highlights": [
-        "Build core business and template for E-commerce website",
-        "Build web SSO and user management for Prime's ecosystem"
+        "Efficiently handled multiple datasets and their complex relationships.",
+        "Optimized application performance and improved user experience.",
+        "Implemented user permissions based on roles for data security.",
+        "Utilized datagrid libraries for efficient large-scale data manipulation.",
+        "Processed background jobs such as file uploads/downloads and data exports with high speed and stability.",
+        "Ensured smooth and accurate real-time data processing even with concurrent users."
       ]
     },
     {
@@ -191,7 +155,7 @@
       "position": "Full Stack Web Developer",
       "url": "https://ioh.cloud",
       "startDate": "2019-03-01",
-      "endDate": "2022-01-01",
+      "endDate": "2020-12-01",
       "summary": "",
       "highlights": [
         "Build a form builder system, support users to create online surveys and analyze survey data based on JSON Schema and Angular framework",
@@ -203,38 +167,6 @@
     }
   ],
   "projects": [
-    {
-      "name": "Doora Music",
-      "description": "Listen to music with friends",
-      "highlights": [
-        "Search & play music from Youtube",
-        "Create room listen to music together",
-        "Allow user invite member from url",
-        "Allow user add song to queue of room",
-        "Allow user choose member of room play music",
-        "Using MinIO (like AWS S3) to storage media",
-        "Crawler data from Youtube"
-      ],
-      "keywords": [
-        "Angular",
-        "TailwindCSS",
-        "NestJS",
-        "SSE",
-        "PostgreSQL",
-        "CI/CD",
-        "Jenkins",
-        "Kubernetes",
-        "Linux"
-      ],
-      "startDate": "2022-08-01",
-      "endDate": "",
-      "url": "https://music.doora.cloud",
-      "roles": [
-        "Product Owner"
-      ],
-      "entity": "",
-      "type": "application"
-    },
     {
       "name": "IOH Chat",
       "description": "Information portal and support system for information exchange in hospitals",
@@ -284,26 +216,6 @@
       ],
       "entity": "",
       "type": "application"
-    },
-    {
-      "name": "IOH Form Builder",
-      "description": "",
-      "highlights": [
-        "Build a form builder system, support users to create online surveys and analyze survey data based on JSON Schema and Angular framework"
-      ],
-      "keywords": [
-        "Angular",
-        "Bootstrap",
-        "JSON Schema"
-      ],
-      "startDate": "2019-06-16",
-      "endDate": "2019-07-26",
-      "url": "",
-      "roles": [
-        "FrontEnd Developer"
-      ],
-      "entity": "",
-      "type": "application"
     }
   ],
   "education": [
@@ -334,34 +246,8 @@
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "English",
-      "fluency": "Read and write"
-    }
-  ],
-  "interests": [
-    {
-      "name": "Music",
-      "keywords": []
-    },
-    {
-      "name": "Movie",
-      "keywords": []
-    },
-    {
-      "name": "Cooking",
-      "keywords": []
-    },
-    {
-      "name": "Coding",
-      "keywords": []
-    },
-    {
-      "name": "Technology",
-      "keywords": []
-    }
-  ],
+  "languages": [],
+  "interests": [],
   "references": [],
   "awards": [],
   "certificates": [],
