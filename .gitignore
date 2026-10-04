@@ -1,9 +1,5 @@
-bower_components/
 node_modules/
+dist/
 public/
-npm-debug.log
-resume.html
-resume.pdf
-resume.json
-index.html
+*.log
 .DS_Store

@@ -1,17 +1,35 @@
 {
-  "name": "jsonresume-theme-stackoverflow",
-  "version": "2.0.0",
-  "description": "Stack Overflow theme for JSON Resume",
-  "author": "Francesco Esposito",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/francescoes/jsonresume-theme-stackoverflow"
+  "name": "kai-nguyen-resume",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Kai Nguyen's resume",
+  "license": "UNLICENSED",
+  "scripts": {
+    "dev": "resuml dev --resume resume.json --theme jsonresume-theme-sidebar-photo-strip/dist --port 4000",
+    "validate": "resuml validate --resume resume.json",
+    "build": "pnpm run build:html",
+    "prebuild:html": "node -e \"const fs=require('node:fs');fs.mkdirSync('dist',{recursive:true});fs.copyFileSync('override.css','dist/override.css')\"",
+    "build:html": "resuml render --resume resume.json --theme jsonresume-theme-sidebar-photo-strip/dist --output dist/resume.html",
+    "build:pdf": "pnpm run build:html && node tools/build-pdf.mjs",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "check": "pnpm run validate && pnpm run format:check && pnpm run build:html"
   },
-  "license": "MIT",
-  "main": "index.js",
+  "engines": {
+    "node": ">=24",
+    "pnpm": ">=12"
+  },
+  "packageManager": "pnpm@12.9.1",
+  "devDependencies": {
+    "jsonresume-theme-art-school-modern": "0.2.5",
+    "playwright": "1.58.2",
+    "prettier": "3.9.9",
+    "react": "19.2.0",
+    "react-dom": "19.2.0",
+    "resuml": "3.2.0"
+  },
   "dependencies": {
-    "handlebars": "^4.7.7",
-    "jsonresume-theme-stackoverflow": "^2.0.0",
-    "moment": "^2.29.2"
+    "jsonresume-theme-sidebar": "^0.2.4",
+    "jsonresume-theme-sidebar-photo-strip": "^1.1.4"
   }
 }

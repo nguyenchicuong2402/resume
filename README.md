@@ -1,73 +1,45 @@
-# Stack Overflow theme for jsonresume [![npm version](https://badge.fury.io/js/jsonresume-theme-stackoverflow.svg)](http://badge.fury.io/js/jsonresume-theme-stackoverflow)
+# Resume
 
-**Printable version with custom CSS**
+Personal resume stored in the open [JSON Resume](https://jsonresume.org/) format and rendered with the Art School Modern theme.
 
-[DEMO](https://themes.jsonresume.org/theme/stackoverflow)
+## Requirements
 
-## Getting started
+- Node.js 24 or newer
+- Corepack enabled (`corepack enable`)
+- Playwright Chromium for PDF export (`pnpm exec playwright install chromium`)
 
-### Install the command line
+The project pins pnpm through the `packageManager` field, so no global `resume-cli` installation is required.
 
-Create your resume in json on [jsonresume](https://jsonresume.org)
+## Development
 
-The official [resume-cli](https://github.com/jsonresume/resume-cli) to run the development server.
-
-Go ahead and install it:
-
-```
-npm install -g resume-cli
-```
-
-### Install and serve theme
-
-Clone the repository
-
-```
-git clone https://github.com/francescoes/jsonresume-theme-stackoverflow.git
+```bash
+pnpm install --frozen-lockfile
+pnpm dev
 ```
 
-Create a 'resume.json' file in the current folder and follow the [json resume schema](https://jsonresume.org/schema/)
+The development server watches `resume.json` and serves the rendered resume at <http://localhost:4000>.
 
-Simply run:
+## Validation and builds
 
-```
-resume serve --theme .
-```
-
-### Social Profiles Icons
-
-**Profiles supported with brand colors:**
-
-Please note that all the [Font awesome brands icons](https://fontawesome.com/search?s=brands) are supported. Although only the ones listed below have a color code associated with it in my CSS file:
-
-github, stack-overflow, linkedin, dribbble, twitter, facebook, pinterest, instagram, soundcloud, wordpress, youtube, flickr, google plus, tumblr, foursquare.
-
-To have a social icon close the social link profile (or username) it is enough to set a `network` the name of the Social Network (es: 'Stack Overflow'). I am replacing spaces with dashes (`-`) and transforming all the network name to all lowercase to match the Font awesome naming convention for brands icons.
-
-#### Support to extra fields
-
-With stackoverflow theme it is possible to add:
-
-- `keywords` to each 'work', 'publication' and 'volunteer' item
-- `summary` to each 'interests' and 'education' item
-- `birth` to 'basics' (might be commonly used in Europe)
-
-example of the extra `birth` object:
-
-```
-"birth": {
-  "place": "New York",
-  "state": "USA",
-  "date": "1988"
-}
+```bash
+pnpm validate
+pnpm build:html
+pnpm build:pdf
+pnpm check
 ```
 
-## Contribution
+Generated files are written to `dist/` and are not committed. HTML builds need no browser; PDF builds use the Playwright-managed Chromium installation.
 
-Fork the project, add your feature (or fix your bug) and open a pull request OR
+## Source of truth
 
-[Open an issue](https://github.com/francescoes/jsonresume-theme-stackoverflow/issues/new) if you find find or if you would like to have extra fields or changes 
+- `resume.json`: resume content following the canonical JSON Resume schema
+- `override.css`: small print-layout adjustments layered on top of the upstream theme
+- `images/avatar.jpg`: local profile image asset
+- `package.json`: pinned toolchain and repeatable project commands
+- `tools/build-pdf.mjs`: browser-based PDF export that inlines the print overrides
 
-## License
+The installed `jsonresume-theme-art-school-modern` package owns rendering, while `resuml` provides validation, local preview, and exports. This repository intentionally does not maintain a fork of the theme.
 
-Available under the [MIT license](http://opensource.org/licenses/mit-license.php).
+## Nx workspace integration
+
+This project can be moved into an Nx workspace as a lightweight tooling project. Keep `resume.json` and the image under a dedicated project root, add explicit `validate`, `build`, and `serve` targets, and let the workspace root own pnpm and the lockfile. Do not copy this standalone `packageManager` field or lockfile into the monorepo.

@@ -1,21 +1,17 @@
 {
-  "meta": {
-    "theme": "jsonresume-theme-stackoverflow"
-  },
+  "$schema": "https://raw.githubusercontent.com/jsonresume/jsonresume.org/master/packages/schema/schema.json",
   "basics": {
     "name": "Cuong Nguyen Chi",
-    "label": "Full Stack Web Developer",
+    "label": "Web Developer",
     "image": "https://github.com/nguyenchicuong2402/resume/blob/master/images/avatar.jpg?raw=true",
     "email": "nguyenchicuong2402@gmail.com",
     "phone": "(+84) 945 767 420",
     "url": "https://doora.cloud",
     "summary": "An ambitious and self-motivated web developer with a considerable technical skill who possesses self- discipline and ability to work with minimum of supervision. Able to play a key role in website development to ensure maximum accessibility, user experience and usability. A quick learner who can absorb new ideas and can communicate clearly and effectively.",
     "location": {
-      "address": "Go Vap Dict",
-      "postalCode": "",
+      "address": "Go Vap District",
       "city": "Ho Chi Minh",
-      "countryCode": "VN",
-      "region": ""
+      "countryCode": "VN"
     },
     "profiles": [
       {
@@ -28,68 +24,42 @@
         "username": "nguyenchicuong2402",
         "url": "https://github.com/nguyenchicuong2402"
       }
-    ],
-    "birth": {
-      "place": "Kien Giang",
-      "state": "VN",
-      "date": "1999"
-    }
+    ]
   },
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Middle",
+      "name": "Front-end Development",
+      "level": "Advanced",
       "keywords": [
+        "Typescript",
+        "Javascript",
+        "ReactJS",
+        "Angular",
+        "Nx",
+        "TailwindCSS",
         "HTML",
         "CSS",
-        "SASS",
-        "Bootstrap",
-        "TailwindCSS",
-        "JavaScript",
-        "JQuery",
-        "JSON"
+        "SASS"
       ]
     },
     {
-      "name": "Java",
-      "level": "Junior",
+      "name": "Back-end Development",
+      "level": "Advanced",
       "keywords": [
-        "Java Core",
+        "OOP",
+        "Java",
         "Spring Boot",
-        "Stream",
-        "WebSocket"
-      ]
-    },
-    {
-      "name": "NodeJS",
-      "level": "Middle",
-      "keywords": [
+        "NodeJS",
         "NestJS",
-        "JavaScript",
-        "TypeScript",
+        "Express",
+        "WebSocket",
         "SSE",
-        "Caching",
-        "WebSocket"
-      ]
-    },
-    {
-      "name": "Angular",
-      "level": "Middle",
-      "keywords": [
-        "RxJS",
-        "Component",
-        "Directive",
-        "Pipe",
-        "Module",
-        "TypeScript",
-        "Lazy Load",
-        "Change Detection",
-        "Nx"
+        "Caching"
       ]
     },
     {
       "name": "Database",
-      "level": "Middle",
+      "level": "Intermediate",
       "keywords": [
         "SQL",
         "PostgreSQL",
@@ -99,8 +69,9 @@
     },
     {
       "name": "DevOps",
-      "level": "Junior",
+      "level": "Intermediate",
       "keywords": [
+        "Bash",
         "Docker",
         "Kubernetes",
         "Linux",
@@ -109,23 +80,27 @@
       ]
     },
     {
-      "name": "RPA",
-      "level": "Middle",
-      "keywords": [
-        "UiPath"
-      ]
-    },
-    {
       "name": "Version Control",
-      "level": "",
+      "level": "Advanced",
       "keywords": [
         "Git",
+        "Github",
+        "Gitlab",
+        "Bitbucket",
         "Subversion"
       ]
     },
     {
+      "name": "Methodologies",
+      "level": "Intermediate",
+      "keywords": [
+        "Agile",
+        "Waterfall",
+        "Jira"
+      ]
+    },
+    {
       "name": "IDE & Tools",
-      "level": "",
       "keywords": [
         "Eclipse",
         "VS Code",
@@ -136,29 +111,27 @@
         "Postman",
         "Sublime Text"
       ]
-    },
-    {
-      "name": "Operating System",
-      "level": "",
-      "keywords": [
-        "Linux",
-        "Window",
-        "MAC OS"
-      ]
-    },
-    {
-      "name": "Methodologies",
-      "level": "",
-      "keywords": [
-        "Agile",
-        "Waterfall"
-      ]
     }
   ],
   "work": [
     {
+      "name": "FileString (CodeStringers)",
+      "position": "Web Developer",
+      "url": "https://www.codestringers.com",
+      "startDate": "2023-02-15",
+      "endDate": "2024-04-16",
+      "highlights": [
+        "Efficiently handled multiple datasets and their complex relationships.",
+        "Optimized application performance and improved user experience.",
+        "Implemented user permissions based on roles for data security.",
+        "Utilized datagrid libraries for efficient large-scale data manipulation.",
+        "Processed background jobs such as file uploads/downloads and data exports with high speed and stability.",
+        "Ensured smooth and accurate real-time data processing even with concurrent users."
+      ]
+    },
+    {
       "name": "Prime Commerce",
-      "position": "FrontEnd Developer",
+      "position": "Web Developer",
       "url": "https://primecommerce.asia",
       "startDate": "2022-04-01",
       "endDate": "2023-02-14",
@@ -192,7 +165,6 @@
       "url": "https://ioh.cloud",
       "startDate": "2019-03-01",
       "endDate": "2022-01-01",
-      "summary": "",
       "highlights": [
         "Build a form builder system, support users to create online surveys and analyze survey data based on JSON Schema and Angular framework",
         "Build a webapp to support the hospital to collect the glycemic index of diabetic patients using Angular Framework and Bootstrap.",
@@ -212,38 +184,30 @@
         "Allow user invite member from url",
         "Allow user add song to queue of room",
         "Allow user choose member of room play music",
-        "Using MinIO (like AWS S3) to storage media",
-        "Crawler data from Youtube"
+        "Using MinIO (like AWS S3) to storage"
       ],
       "keywords": [
         "Angular",
+        "NgRx",
         "TailwindCSS",
         "NestJS",
         "SSE",
         "PostgreSQL",
         "CI/CD",
-        "Jenkins",
-        "Kubernetes",
         "Linux"
       ],
       "startDate": "2022-08-01",
-      "endDate": "",
       "url": "https://music.doora.cloud",
       "roles": [
         "Product Owner"
       ],
-      "entity": "",
       "type": "application"
     },
     {
       "name": "IOH Chat",
       "description": "Information portal and support system for information exchange in hospitals",
       "highlights": [
-        "Design and develop web application with Angular and Ant Design",
-        "Develop Restful APIs, WebSocket with NestJS, PostgreSQL",
-        "Build application with Gitlab CI, Docker",
-        "Deploy Kubernetes system with HA architecture",
-        "Learned OAuth2 makes it easy for me to decentralize users and protect internal services (Keycloak)"
+        "The system was built to support information exchange between departments in the hospital, aiming to improve work efficiency and service quality."
       ],
       "keywords": [
         "Angular",
@@ -257,19 +221,17 @@
       ],
       "startDate": "2020-11-01",
       "endDate": "2021-03-30",
-      "url": "",
       "roles": [
         "FrontEnd Developer",
         "DevOps"
       ],
-      "entity": "",
       "type": "application"
     },
     {
       "name": "IOH",
-      "description": "",
       "highlights": [
-        "Build a webapp to support the hospital to collect the glycemic index of diabetic patients using Angular Framework and Bootstrap."
+        "The web application is built using Angular Framework and Bootstrap to help the hospital collect and track the glycemic index of diabetic patients.",
+        "The system provides a user-friendly interface that allows patients to easily enter their data and view their results over time."
       ],
       "keywords": [
         "Angular",
@@ -282,14 +244,13 @@
       "roles": [
         "FrontEnd Developer"
       ],
-      "entity": "",
       "type": "application"
     },
     {
       "name": "IOH Form Builder",
-      "description": "",
       "highlights": [
-        "Build a form builder system, support users to create online surveys and analyze survey data based on JSON Schema and Angular framework"
+        "Developed a web application using Angular framework and JSON Schema to empower users to create and manage online surveys.",
+        "The system allows users to define surveys with various question types, collect responses, and analyze data through interactive visualizations."
       ],
       "keywords": [
         "Angular",
@@ -298,11 +259,9 @@
       ],
       "startDate": "2019-06-16",
       "endDate": "2019-07-26",
-      "url": "",
       "roles": [
         "FrontEnd Developer"
       ],
-      "entity": "",
       "type": "application"
     }
   ],
@@ -315,7 +274,6 @@
       "startDate": "2017-09-01",
       "endDate": "2021-09-01",
       "score": "3.1",
-      "summary": "",
       "courses": [
         "Data Structures & Algorithms",
         "Discrete Structure",
@@ -337,16 +295,12 @@
   "languages": [
     {
       "language": "English",
-      "fluency": "Read and write"
+      "fluency": "Beginner"
     }
   ],
   "interests": [
     {
-      "name": "Music",
-      "keywords": []
-    },
-    {
-      "name": "Movie",
+      "name": "Reading",
       "keywords": []
     },
     {
@@ -354,11 +308,7 @@
       "keywords": []
     },
     {
-      "name": "Coding",
-      "keywords": []
-    },
-    {
-      "name": "Technology",
+      "name": "Travelling",
       "keywords": []
     }
   ],

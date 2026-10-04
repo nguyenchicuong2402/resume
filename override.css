@@ -1,0 +1,162 @@
+@media print {
+  body > div > div {
+    padding: 24px 28px 32px !important;
+  }
+
+  body > div > div > header {
+    gap: 28px !important;
+    padding-bottom: 20px !important;
+  }
+
+  body > div > div > header h1 {
+    font-size: 64px !important;
+  }
+
+  body > div > div > header > div > div:first-child {
+    margin-bottom: 12px !important;
+  }
+
+  body > div > div > header > div > div:last-child {
+    margin-top: 14px !important;
+  }
+
+  body > div > div > header figure,
+  body > div > div > header img {
+    width: 112px !important;
+  }
+
+  body > div > div > header img {
+    height: 112px !important;
+  }
+
+  body > div > div > header + div {
+    gap: 4px 18px !important;
+    margin-bottom: 26px !important;
+    padding-top: 14px !important;
+    font-size: 11px !important;
+  }
+
+  body > div > div > section {
+    grid-template-columns: 150px 1fr !important;
+    gap: 28px !important;
+  }
+
+  body > div > div > section:first-of-type {
+    margin-bottom: 12px !important;
+  }
+
+  body > div > div > section:first-of-type p {
+    font-size: 20px !important;
+    line-height: 1.22 !important;
+  }
+
+  body > div > div > section:not(:first-of-type) {
+    padding: 22px 0 !important;
+    break-inside: auto !important;
+    page-break-inside: auto !important;
+  }
+
+  body > div > div > section:not(:first-of-type) > div:last-child {
+    gap: 20px !important;
+  }
+
+  body > div > div > section:nth-of-type(4) ul {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 18px !important;
+  }
+
+  body > div > div > section:nth-of-type(5) > div:last-child {
+    gap: 12px !important;
+  }
+
+  body > div > div > section:nth-of-type(5) > div:last-child > div {
+    gap: 4px !important;
+  }
+
+  body
+    > div
+    > div
+    > section:nth-of-type(5)
+    > div:last-child
+    > div
+    > div:last-child {
+    gap: 5px !important;
+    margin-top: 2px !important;
+  }
+
+  body
+    > div
+    > div
+    > section:nth-of-type(5)
+    > div:last-child
+    > div
+    > div:last-child
+    > span {
+    padding: 2px 7px !important;
+    font-size: 10px !important;
+  }
+
+  body > div > div > section:nth-last-of-type(-n + 2) {
+    padding: 16px 0 !important;
+  }
+
+  body > div > div > section h2 {
+    font-size: 24px !important;
+  }
+
+  body > div > div > section h3 {
+    font-size: 17px !important;
+  }
+
+  body > div > div > section article {
+    gap: 3px !important;
+    break-inside: auto;
+    page-break-inside: auto;
+  }
+
+  body > div > div > section article > div:first-child,
+  body > div > div > section article > h3 {
+    break-after: avoid;
+    page-break-after: avoid;
+  }
+
+  body > div > div > section p {
+    margin-top: 3px !important;
+    font-size: 11.5px !important;
+    line-height: 1.4 !important;
+  }
+
+  body > div > div > section ul {
+    gap: 2px !important;
+    margin-top: 4px !important;
+  }
+
+  body > div > div > section li {
+    padding-left: 17px !important;
+    font-size: 11px !important;
+    line-height: 1.35 !important;
+  }
+
+  body > div > div > section li::before {
+    top: 5px !important;
+    width: 6px !important;
+    height: 6px !important;
+  }
+
+  body > div > div > section article > div:last-child,
+  body > div > div > section article > ul + div {
+    gap: 5px !important;
+    margin-top: 4px !important;
+  }
+
+  body > div > div > section article > div:last-child > span,
+  body > div > div > section article > ul + div > span {
+    padding: 2px 7px !important;
+    font-size: 10px !important;
+  }
+
+  body > div > div > footer {
+    margin-top: 20px !important;
+  }
+}
